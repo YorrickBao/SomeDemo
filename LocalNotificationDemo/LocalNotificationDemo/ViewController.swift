@@ -20,6 +20,9 @@ class ViewController: UIViewController {
         center.requestAuthorization(options: [.alert, .sound, .badge]) { (granted, error) in
             if granted {
                 print("granted!!!")
+                UIApplication.shared.registerForRemoteNotifications()
+            } else {
+                print("user denied notification")
             }
         }
 
