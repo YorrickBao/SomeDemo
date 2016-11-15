@@ -9,6 +9,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>CocoaSecurity.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>CryptoKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-AlamofireDemo.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,22 +37,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>282EB6AF1B471155E88F71E79931806B</key>
+		<key>0F24E81EB64E67EFF519D887ED65E799</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>29F9A80C15E1F6F60F3EB19C05EFB572</key>
+		<key>164BA284C2E9F9AF552C48C6D4D427E9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>518B3C645CC1F7E5E7853531A5155480</key>
+		<key>542DB8FC216C6A7ADCF434918F7A6D91</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>79C040AFDDCE1BCBF6D8B5EB0B85887F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>90B2840AB96CFDCBD62C7A56DFD6562C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CF69C907FA72F0BC02249167A6BEC14F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

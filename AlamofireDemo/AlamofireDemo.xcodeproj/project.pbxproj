@@ -13,10 +13,12 @@
 		294874011DB523E500AD7537 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 294873FF1DB523E500AD7537 /* Main.storyboard */; };
 		294874031DB523E500AD7537 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 294874021DB523E500AD7537 /* Assets.xcassets */; };
 		294874061DB523E500AD7537 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 294874041DB523E500AD7537 /* LaunchScreen.storyboard */; };
+		29C3F9031DD9E92900652083 /* AWFileHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C3F9021DD9E92900652083 /* AWFileHash.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04A9A16620C38EE6FC49F741 /* Pods_AlamofireDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlamofireDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29233A0C1DC1A95D004C1A3C /* AlamofireDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlamofireDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		294873F81DB523E500AD7537 /* AlamofireDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlamofireDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		294873FB1DB523E500AD7537 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		294873FD1DB523E500AD7537 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		294874021DB523E500AD7537 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		294874051DB523E500AD7537 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		294874071DB523E500AD7537 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29C3F9011DD9E92900652083 /* AWFileHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWFileHash.h; sourceTree = "<group>"; };
+		29C3F9021DD9E92900652083 /* AWFileHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWFileHash.m; sourceTree = "<group>"; };
 		482C741BDDF8B15BC8AC7C42 /* Pods-AlamofireDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamofireDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlamofireDemo/Pods-AlamofireDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		DE1B424453CE3C7CAE85D524 /* Pods-AlamofireDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamofireDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlamofireDemo/Pods-AlamofireDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,8 +65,11 @@
 		294873FA1DB523E500AD7537 /* AlamofireDemo */ = {
 			isa = PBXGroup;
 			children = (
+				29233A0C1DC1A95D004C1A3C /* AlamofireDemo-Bridging-Header.h */,
 				294873FB1DB523E500AD7537 /* AppDelegate.swift */,
 				294873FD1DB523E500AD7537 /* ViewController.swift */,
+				29C3F9011DD9E92900652083 /* AWFileHash.h */,
+				29C3F9021DD9E92900652083 /* AWFileHash.m */,
 				294873FF1DB523E500AD7537 /* Main.storyboard */,
 				294874021DB523E500AD7537 /* Assets.xcassets */,
 				294874041DB523E500AD7537 /* LaunchScreen.storyboard */,
@@ -118,7 +125,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = YorrickBao;
 				TargetAttributes = {
 					294873F71DB523E500AD7537 = {
@@ -214,6 +221,7 @@
 			files = (
 				294873FE1DB523E500AD7537 /* ViewController.swift in Sources */,
 				294873FC1DB523E500AD7537 /* AppDelegate.swift in Sources */,
+				29C3F9031DD9E92900652083 /* AWFileHash.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +265,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -306,6 +315,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -334,12 +344,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 482C741BDDF8B15BC8AC7C42 /* Pods-AlamofireDemo.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 22FK6EQLFU;
 				INFOPLIST_FILE = AlamofireDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.YorrickBao.AlamofireDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AlamofireDemo/AlamofireDemo-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -348,12 +360,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DE1B424453CE3C7CAE85D524 /* Pods-AlamofireDemo.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 22FK6EQLFU;
 				INFOPLIST_FILE = AlamofireDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.YorrickBao.AlamofireDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AlamofireDemo/AlamofireDemo-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

@@ -14,6 +14,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         title = "Root"
+        
+        let path = Bundle.main.path(forResource: "Info", ofType: "plist")
+        print(path)
     }
 
     @IBAction func backToRoot(segue: UIStoryboardSegue) {

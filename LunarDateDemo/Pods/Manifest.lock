@@ -1,0 +1,12 @@
+PODS:
+  - SSLunarDate (0.0.1)
+
+DEPENDENCIES:
+  - SSLunarDate
+
+SPEC CHECKSUMS:
+  SSLunarDate: d5d7d581f7e7e157c8d704a5f053b4ebcf760bba
+
+PODFILE CHECKSUM: c6bf7c28870421fcabf4e710c651d1c734d9aa76
+
+COCOAPODS: 1.1.0.rc.3

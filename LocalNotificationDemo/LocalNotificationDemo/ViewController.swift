@@ -28,7 +28,7 @@ class ViewController: UIViewController {
 
         //setupLocalNotification()
         
-        arrangNotification(timeInterval: 5, times: 3)
+        arrangNotification(timeInterval: 3, times: 3)
         
         center.getPendingNotificationRequests { (requests) in
             print("requests count: \(requests.count)")

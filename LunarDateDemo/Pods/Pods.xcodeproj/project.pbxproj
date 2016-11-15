@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01ED2ECBD4CDB9AE9684694F726D17A2 /* SSHolidayUK.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A23224E8699BCA6540AE5E74B53A1F /* SSHolidayUK.m */; };
+		09147D68EAFD414D5BA2DC69887B7D0E /* SSHolidayCA.m in Sources */ = {isa = PBXBuildFile; fileRef = F8969491DBF731FB30C9677B5321CD86 /* SSHolidayCA.m */; };
+		133DD2ACD3AAC8789F2E7168C17E8915 /* libLunar.c in Sources */ = {isa = PBXBuildFile; fileRef = 39FBEE971370A26F8C640BF9A05C49B7 /* libLunar.c */; };
+		1AD1953EDD3057B47E09554E4099B9EB /* SSLunarDate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD8FD685FA1C85EC717C98080C8FA77 /* SSLunarDate-dummy.m */; };
+		1CCA415F59FEB2F5AA27EFD98025DA78 /* SSHolidayWest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AD94444F95441A3262E41D3EA327409 /* SSHolidayWest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D23B8C7B9C3A962B9F7A9A74038DE1F /* SSLunarDate.m in Sources */ = {isa = PBXBuildFile; fileRef = B262ED8E33F7E8FBAC6BE73305409BCB /* SSLunarDate.m */; };
+		2B3F127B379ACECFD2BA98C8AAEC5040 /* SSLunarDateFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 351F380873FEC1A1B416C2A585216291 /* SSLunarDateFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C59358C5D6D814BBD5965A67643CDDA /* Pods-LunarDateDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 273829F8BA900497C18C761BFA363251 /* Pods-LunarDateDemo-dummy.m */; };
+		39394374B239425E7BCBC665C5157829 /* SSHolidayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE73EDB106CCF55388F654E39D258CA /* SSHolidayManager.m */; };
+		3F551D3ECF0973437D6BFF0078787064 /* SSHolidayUS.h in Headers */ = {isa = PBXBuildFile; fileRef = 958A8975D11E17CE1C4C6661CA013A0A /* SSHolidayUS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		521B0BE2150A5CBBC637F19455C1E690 /* SSLunarDateHoliday.h in Headers */ = {isa = PBXBuildFile; fileRef = 56852F190E11ED56A4E4F8EA6D949885 /* SSLunarDateHoliday.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55636212326B3CFD86F52E301127B9B7 /* SSLunarDate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15BBC3A802F2C9C46E3C8EF2973BAAB9 /* SSLunarDate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		590BB674157DEB8E4C7589AFC419BA9D /* SSHolidayManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C7BA3E0D2A724C5A7EC9E483ED247BEE /* SSHolidayManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C0DAFD8B20A1F54BA749229BB1CE17C /* SSHolidayWest.m in Sources */ = {isa = PBXBuildFile; fileRef = 57DF89A7312703EC620DE81295CC8569 /* SSHolidayWest.m */; };
+		5F2F579EDE4D999FEA3D1F0BCF013E88 /* SSLunarDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = D33424048E84A82F41AD32CDEAA6310A /* SSLunarDateFormatter.m */; };
+		61D6B6B3C0D29B5CA228FF38BD93D3CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		68E66BD92DE017B19D4A31E7F1025F46 /* SSHolidayHK.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD1CD2F7F26439B877D9F2B71A18A22 /* SSHolidayHK.m */; };
+		6A2DD2588EEE4D4F7024443779F8CDD0 /* SSHolidayChina.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC58766307B085D5C8A45C324D3B295 /* SSHolidayChina.m */; };
+		7742E7FCAD5D60DCD1CD9AA5F49AD2B6 /* SSHolidayChina.h in Headers */ = {isa = PBXBuildFile; fileRef = 70EAEAEE0B956D19D9F450BDA5906D10 /* SSHolidayChina.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7991F45FBFE110E0A5CBC3EAB191C5BB /* SSHolidayUK.h in Headers */ = {isa = PBXBuildFile; fileRef = 6562C81393F16B9A9386E25D9D4172B5 /* SSHolidayUK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83874D44552E31DC708017F338080D96 /* SSHolidayCountry.h in Headers */ = {isa = PBXBuildFile; fileRef = EEAD82629D263B4952F1C9217AF4341E /* SSHolidayCountry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		901C7A0CD358C16A6D55F4EFBEA14094 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		97E01CD95AC6C98D4314CE64BA686A76 /* SSHolidayCountry.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F445FAC441A4C31ED7F36932CE62CF /* SSHolidayCountry.m */; };
+		B12AA9254CBAB1F7D67BF9A1845F66DC /* SSLunarDateHoliday.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D8DE934E933D94389FE5340EB8BB0 /* SSLunarDateHoliday.m */; };
+		B7296C16258B3E7618C43157FC26920E /* SSHolidayTW.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E53A688F26BB6F8E2672DD10179BF24 /* SSHolidayTW.m */; };
+		CF1102A8F0ABBD3F44CBD79AF747FB9F /* SSHolidayTW.h in Headers */ = {isa = PBXBuildFile; fileRef = 11548E534444E62F5D719DDE37A1FB64 /* SSHolidayTW.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF7E4AC5868D2551D5FDE01ADC4CDAA4 /* Pods-LunarDateDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F340002562D3DD5AC94CAFF94F231F88 /* Pods-LunarDateDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFF47CB07D298ED20C6B3E1470D34EAA /* SSLunarDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D9F7972DECF9EC9EC5668F4EF233FBD /* SSLunarDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1B4967EE4394D2E3EA088BB138FDBDC /* SSLunarDateType.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E54F1F9F917B1B40870180DB6CD93C /* SSLunarDateType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5BE0E8BFE50AFFBF3D44A41F7466FA6 /* SSHolidayCA.h in Headers */ = {isa = PBXBuildFile; fileRef = C6C4786991DA90C6EC172203A4CBC86A /* SSHolidayCA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F68F9B636297224CE03B297739C23586 /* SSHolidayUS.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD0787B3D7E6738D9A0AA774567BE53 /* SSHolidayUS.m */; };
+		F862A4ADA6706E9B8DAB7E32CEFD170D /* SSHolidayHK.h in Headers */ = {isa = PBXBuildFile; fileRef = 338340D740AD91F6F9244A1B002D95BF /* SSHolidayHK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F90915AFE86758B255F2813EC17D1420 /* libLunar.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FBED4D910BF1DF031BDE7A160F815AA /* libLunar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE2C82650F2E21D36F192E625C0D9EBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 933D832E0E1510FC0D6F10A8729BE64E;
+			remoteInfo = SSLunarDate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08AC05F5512AE3A171C920A55949D3C8 /* Pods-LunarDateDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LunarDateDemo.release.xcconfig"; sourceTree = "<group>"; };
+		096AC8ED522AD206589E167360F17591 /* SSLunarDate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SSLunarDate.modulemap; sourceTree = "<group>"; };
+		11548E534444E62F5D719DDE37A1FB64 /* SSHolidayTW.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSHolidayTW.h; path = SSLunarDate/SSHolidayTW.h; sourceTree = "<group>"; };
+		15BBC3A802F2C9C46E3C8EF2973BAAB9 /* SSLunarDate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSLunarDate-umbrella.h"; sourceTree = "<group>"; };
+		1AD94444F95441A3262E41D3EA327409 /* SSHolidayWest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSHolidayWest.h; path = SSLunarDate/SSHolidayWest.h; sourceTree = "<group>"; };
+		273829F8BA900497C18C761BFA363251 /* Pods-LunarDateDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LunarDateDemo-dummy.m"; sourceTree = "<group>"; };
+		338340D740AD91F6F9244A1B002D95BF /* SSHolidayHK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSHolidayHK.h; path = SSLunarDate/SSHolidayHK.h; sourceTree = "<group>"; };
+		344D8DE934E933D94389FE5340EB8BB0 /* SSLunarDateHoliday.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSLunarDateHoliday.m; path = SSLunarDate/SSLunarDateHoliday.m; sourceTree = "<group>"; };
+		351F380873FEC1A1B416C2A585216291 /* SSLunarDateFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSLunarDateFormatter.h; path = SSLunarDate/SSLunarDateFormatter.h; sourceTree = "<group>"; };
+		39FBEE971370A26F8C640BF9A05C49B7 /* libLunar.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = libLunar.c; path = SSLunarDate/libLunar.c; sourceTree = "<group>"; };
+		4E53A688F26BB6F8E2672DD10179BF24 /* SSHolidayTW.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSHolidayTW.m; path = SSLunarDate/SSHolidayTW.m; sourceTree = "<group>"; };
+		51F7968684EAE62061D9607CB627C351 /* Pods-LunarDateDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LunarDateDemo-frameworks.sh"; sourceTree = "<group>"; };
+		56852F190E11ED56A4E4F8EA6D949885 /* SSLunarDateHoliday.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSLunarDateHoliday.h; path = SSLunarDate/SSLunarDateHoliday.h; sourceTree = "<group>"; };
+		57DF89A7312703EC620DE81295CC8569 /* SSHolidayWest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSHolidayWest.m; path = SSLunarDate/SSHolidayWest.m; sourceTree = "<group>"; };
+		5AD8FD685FA1C85EC717C98080C8FA77 /* SSLunarDate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSLunarDate-dummy.m"; sourceTree = "<group>"; };
+		5C7F691668F23B291789E14F7CAD9E09 /* Pods-LunarDateDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LunarDateDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		5D9F7972DECF9EC9EC5668F4EF233FBD /* SSLunarDate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSLunarDate.h; path = SSLunarDate/SSLunarDate.h; sourceTree = "<group>"; };
+		6562C81393F16B9A9386E25D9D4172B5 /* SSHolidayUK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSHolidayUK.h; path = SSLunarDate/SSHolidayUK.h; sourceTree = "<group>"; };
+		6FC58766307B085D5C8A45C324D3B295 /* SSHolidayChina.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSHolidayChina.m; path = SSLunarDate/SSHolidayChina.m; sourceTree = "<group>"; };
+		70EAEAEE0B956D19D9F450BDA5906D10 /* SSHolidayChina.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSHolidayChina.h; path = SSLunarDate/SSHolidayChina.h; sourceTree = "<group>"; };
+		719CCDC1D2684A84256F3F31A50979C7 /* Pods_LunarDateDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LunarDateDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		796AA340CDC6A613347845C9745B3B67 /* Pods-LunarDateDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LunarDateDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		82E921614DE1FCA38919C877CCE0027A /* SSLunarDate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSLunarDate-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		958A8975D11E17CE1C4C6661CA013A0A /* SSHolidayUS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSHolidayUS.h; path = SSLunarDate/SSHolidayUS.h; sourceTree = "<group>"; };
+		9F3D165529178BF16406DA8D698842F9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FBED4D910BF1DF031BDE7A160F815AA /* libLunar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = libLunar.h; path = SSLunarDate/libLunar.h; sourceTree = "<group>"; };
+		9FE73EDB106CCF55388F654E39D258CA /* SSHolidayManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSHolidayManager.m; path = SSLunarDate/SSHolidayManager.m; sourceTree = "<group>"; };
+		AF97EF8E6AFFE6EFBB0512D3AD8D1BEA /* SSLunarDate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSLunarDate.xcconfig; sourceTree = "<group>"; };
+		B262ED8E33F7E8FBAC6BE73305409BCB /* SSLunarDate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSLunarDate.m; path = SSLunarDate/SSLunarDate.m; sourceTree = "<group>"; };
+		C0F445FAC441A4C31ED7F36932CE62CF /* SSHolidayCountry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSHolidayCountry.m; path = SSLunarDate/SSHolidayCountry.m; sourceTree = "<group>"; };
+		C6C4786991DA90C6EC172203A4CBC86A /* SSHolidayCA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSHolidayCA.h; path = SSLunarDate/SSHolidayCA.h; sourceTree = "<group>"; };
+		C7BA3E0D2A724C5A7EC9E483ED247BEE /* SSHolidayManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSHolidayManager.h; path = SSLunarDate/SSHolidayManager.h; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D075675DD0F2A07D8DC1B9C1A1136BB9 /* Pods-LunarDateDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LunarDateDemo.modulemap"; sourceTree = "<group>"; };
+		D317AE09BDE729DA5714EB6812BBE471 /* Pods-LunarDateDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LunarDateDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D33424048E84A82F41AD32CDEAA6310A /* SSLunarDateFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSLunarDateFormatter.m; path = SSLunarDate/SSLunarDateFormatter.m; sourceTree = "<group>"; };
+		D6E54F1F9F917B1B40870180DB6CD93C /* SSLunarDateType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSLunarDateType.h; path = SSLunarDate/SSLunarDateType.h; sourceTree = "<group>"; };
+		DBD1CD2F7F26439B877D9F2B71A18A22 /* SSHolidayHK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSHolidayHK.m; path = SSLunarDate/SSHolidayHK.m; sourceTree = "<group>"; };
+		DFD0787B3D7E6738D9A0AA774567BE53 /* SSHolidayUS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSHolidayUS.m; path = SSLunarDate/SSHolidayUS.m; sourceTree = "<group>"; };
+		E380D3B00080041A6B6F875A8CA66748 /* Pods-LunarDateDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LunarDateDemo-resources.sh"; sourceTree = "<group>"; };
+		EEAD82629D263B4952F1C9217AF4341E /* SSHolidayCountry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSHolidayCountry.h; path = SSLunarDate/SSHolidayCountry.h; sourceTree = "<group>"; };
+		EF24888F0C241BAAC11E8706F0571F90 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F206EE40B9394BF589BF71EAF5EE784B /* SSLunarDate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSLunarDate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F340002562D3DD5AC94CAFF94F231F88 /* Pods-LunarDateDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LunarDateDemo-umbrella.h"; sourceTree = "<group>"; };
+		F4A23224E8699BCA6540AE5E74B53A1F /* SSHolidayUK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSHolidayUK.m; path = SSLunarDate/SSHolidayUK.m; sourceTree = "<group>"; };
+		F8969491DBF731FB30C9677B5321CD86 /* SSHolidayCA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSHolidayCA.m; path = SSLunarDate/SSHolidayCA.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3ADE9ECAA1DAA1CD1764E0F69BBCA505 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61D6B6B3C0D29B5CA228FF38BD93D3CA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF04A6076D406A6BC7FAE5CC1B14C3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				901C7A0CD358C16A6D55F4EFBEA14094 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AA211ED2A07E087FBF706C4524A050B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				611628587E851B1076C6B34B164A4F36 /* SSLunarDate */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		121972B1C94455F9ABFDBA561CD3C8DA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				26A7435EC58DE0A390CB5F14CADFEAE4 /* Pods-LunarDateDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		121E7EDA94E2F9366E34807EF71A3B30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				719CCDC1D2684A84256F3F31A50979C7 /* Pods_LunarDateDemo.framework */,
+				F206EE40B9394BF589BF71EAF5EE784B /* SSLunarDate.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26A7435EC58DE0A390CB5F14CADFEAE4 /* Pods-LunarDateDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9F3D165529178BF16406DA8D698842F9 /* Info.plist */,
+				D075675DD0F2A07D8DC1B9C1A1136BB9 /* Pods-LunarDateDemo.modulemap */,
+				796AA340CDC6A613347845C9745B3B67 /* Pods-LunarDateDemo-acknowledgements.markdown */,
+				5C7F691668F23B291789E14F7CAD9E09 /* Pods-LunarDateDemo-acknowledgements.plist */,
+				273829F8BA900497C18C761BFA363251 /* Pods-LunarDateDemo-dummy.m */,
+				51F7968684EAE62061D9607CB627C351 /* Pods-LunarDateDemo-frameworks.sh */,
+				E380D3B00080041A6B6F875A8CA66748 /* Pods-LunarDateDemo-resources.sh */,
+				F340002562D3DD5AC94CAFF94F231F88 /* Pods-LunarDateDemo-umbrella.h */,
+				D317AE09BDE729DA5714EB6812BBE471 /* Pods-LunarDateDemo.debug.xcconfig */,
+				08AC05F5512AE3A171C920A55949D3C8 /* Pods-LunarDateDemo.release.xcconfig */,
+			);
+			name = "Pods-LunarDateDemo";
+			path = "Target Support Files/Pods-LunarDateDemo";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		611628587E851B1076C6B34B164A4F36 /* SSLunarDate */ = {
+			isa = PBXGroup;
+			children = (
+				39FBEE971370A26F8C640BF9A05C49B7 /* libLunar.c */,
+				9FBED4D910BF1DF031BDE7A160F815AA /* libLunar.h */,
+				C6C4786991DA90C6EC172203A4CBC86A /* SSHolidayCA.h */,
+				F8969491DBF731FB30C9677B5321CD86 /* SSHolidayCA.m */,
+				70EAEAEE0B956D19D9F450BDA5906D10 /* SSHolidayChina.h */,
+				6FC58766307B085D5C8A45C324D3B295 /* SSHolidayChina.m */,
+				EEAD82629D263B4952F1C9217AF4341E /* SSHolidayCountry.h */,
+				C0F445FAC441A4C31ED7F36932CE62CF /* SSHolidayCountry.m */,
+				338340D740AD91F6F9244A1B002D95BF /* SSHolidayHK.h */,
+				DBD1CD2F7F26439B877D9F2B71A18A22 /* SSHolidayHK.m */,
+				C7BA3E0D2A724C5A7EC9E483ED247BEE /* SSHolidayManager.h */,
+				9FE73EDB106CCF55388F654E39D258CA /* SSHolidayManager.m */,
+				11548E534444E62F5D719DDE37A1FB64 /* SSHolidayTW.h */,
+				4E53A688F26BB6F8E2672DD10179BF24 /* SSHolidayTW.m */,
+				6562C81393F16B9A9386E25D9D4172B5 /* SSHolidayUK.h */,
+				F4A23224E8699BCA6540AE5E74B53A1F /* SSHolidayUK.m */,
+				958A8975D11E17CE1C4C6661CA013A0A /* SSHolidayUS.h */,
+				DFD0787B3D7E6738D9A0AA774567BE53 /* SSHolidayUS.m */,
+				1AD94444F95441A3262E41D3EA327409 /* SSHolidayWest.h */,
+				57DF89A7312703EC620DE81295CC8569 /* SSHolidayWest.m */,
+				5D9F7972DECF9EC9EC5668F4EF233FBD /* SSLunarDate.h */,
+				B262ED8E33F7E8FBAC6BE73305409BCB /* SSLunarDate.m */,
+				351F380873FEC1A1B416C2A585216291 /* SSLunarDateFormatter.h */,
+				D33424048E84A82F41AD32CDEAA6310A /* SSLunarDateFormatter.m */,
+				56852F190E11ED56A4E4F8EA6D949885 /* SSLunarDateHoliday.h */,
+				344D8DE934E933D94389FE5340EB8BB0 /* SSLunarDateHoliday.m */,
+				D6E54F1F9F917B1B40870180DB6CD93C /* SSLunarDateType.h */,
+				F4F56525D16B613DA1978B7DACF6777E /* Support Files */,
+			);
+			path = SSLunarDate;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0AA211ED2A07E087FBF706C4524A050B /* Pods */,
+				121E7EDA94E2F9366E34807EF71A3B30 /* Products */,
+				121972B1C94455F9ABFDBA561CD3C8DA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4F56525D16B613DA1978B7DACF6777E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF24888F0C241BAAC11E8706F0571F90 /* Info.plist */,
+				096AC8ED522AD206589E167360F17591 /* SSLunarDate.modulemap */,
+				AF97EF8E6AFFE6EFBB0512D3AD8D1BEA /* SSLunarDate.xcconfig */,
+				5AD8FD685FA1C85EC717C98080C8FA77 /* SSLunarDate-dummy.m */,
+				82E921614DE1FCA38919C877CCE0027A /* SSLunarDate-prefix.pch */,
+				15BBC3A802F2C9C46E3C8EF2973BAAB9 /* SSLunarDate-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SSLunarDate";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		95506D220482985C918CE4D351E61719 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7E4AC5868D2551D5FDE01ADC4CDAA4 /* Pods-LunarDateDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A68E2A7A539456939F403DB5075EF013 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F90915AFE86758B255F2813EC17D1420 /* libLunar.h in Headers */,
+				E5BE0E8BFE50AFFBF3D44A41F7466FA6 /* SSHolidayCA.h in Headers */,
+				7742E7FCAD5D60DCD1CD9AA5F49AD2B6 /* SSHolidayChina.h in Headers */,
+				83874D44552E31DC708017F338080D96 /* SSHolidayCountry.h in Headers */,
+				F862A4ADA6706E9B8DAB7E32CEFD170D /* SSHolidayHK.h in Headers */,
+				590BB674157DEB8E4C7589AFC419BA9D /* SSHolidayManager.h in Headers */,
+				CF1102A8F0ABBD3F44CBD79AF747FB9F /* SSHolidayTW.h in Headers */,
+				7991F45FBFE110E0A5CBC3EAB191C5BB /* SSHolidayUK.h in Headers */,
+				3F551D3ECF0973437D6BFF0078787064 /* SSHolidayUS.h in Headers */,
+				1CCA415F59FEB2F5AA27EFD98025DA78 /* SSHolidayWest.h in Headers */,
+				55636212326B3CFD86F52E301127B9B7 /* SSLunarDate-umbrella.h in Headers */,
+				CFF47CB07D298ED20C6B3E1470D34EAA /* SSLunarDate.h in Headers */,
+				2B3F127B379ACECFD2BA98C8AAEC5040 /* SSLunarDateFormatter.h in Headers */,
+				521B0BE2150A5CBBC637F19455C1E690 /* SSLunarDateHoliday.h in Headers */,
+				E1B4967EE4394D2E3EA088BB138FDBDC /* SSLunarDateType.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		01F088A24024F9F7609266893BE8B4F5 /* Pods-LunarDateDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0CED66C617B9683B2F3003D98144C22 /* Build configuration list for PBXNativeTarget "Pods-LunarDateDemo" */;
+			buildPhases = (
+				4DC0E8D3F20CB0544C7E9083434F0139 /* Sources */,
+				3ADE9ECAA1DAA1CD1764E0F69BBCA505 /* Frameworks */,
+				95506D220482985C918CE4D351E61719 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFD8BBFA32D1AA3055274C18B5B4F735 /* PBXTargetDependency */,
+			);
+			name = "Pods-LunarDateDemo";
+			productName = "Pods-LunarDateDemo";
+			productReference = 719CCDC1D2684A84256F3F31A50979C7 /* Pods_LunarDateDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		933D832E0E1510FC0D6F10A8729BE64E /* SSLunarDate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0730B13C0C2DD464817BE1229E6AB79F /* Build configuration list for PBXNativeTarget "SSLunarDate" */;
+			buildPhases = (
+				8A2A3C07343ACCBC032EB87FA0158629 /* Sources */,
+				3FF04A6076D406A6BC7FAE5CC1B14C3B /* Frameworks */,
+				A68E2A7A539456939F403DB5075EF013 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSLunarDate;
+			productName = SSLunarDate;
+			productReference = F206EE40B9394BF589BF71EAF5EE784B /* SSLunarDate.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 121E7EDA94E2F9366E34807EF71A3B30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01F088A24024F9F7609266893BE8B4F5 /* Pods-LunarDateDemo */,
+				933D832E0E1510FC0D6F10A8729BE64E /* SSLunarDate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DC0E8D3F20CB0544C7E9083434F0139 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C59358C5D6D814BBD5965A67643CDDA /* Pods-LunarDateDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A2A3C07343ACCBC032EB87FA0158629 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				133DD2ACD3AAC8789F2E7168C17E8915 /* libLunar.c in Sources */,
+				09147D68EAFD414D5BA2DC69887B7D0E /* SSHolidayCA.m in Sources */,
+				6A2DD2588EEE4D4F7024443779F8CDD0 /* SSHolidayChina.m in Sources */,
+				97E01CD95AC6C98D4314CE64BA686A76 /* SSHolidayCountry.m in Sources */,
+				68E66BD92DE017B19D4A31E7F1025F46 /* SSHolidayHK.m in Sources */,
+				39394374B239425E7BCBC665C5157829 /* SSHolidayManager.m in Sources */,
+				B7296C16258B3E7618C43157FC26920E /* SSHolidayTW.m in Sources */,
+				01ED2ECBD4CDB9AE9684694F726D17A2 /* SSHolidayUK.m in Sources */,
+				F68F9B636297224CE03B297739C23586 /* SSHolidayUS.m in Sources */,
+				5C0DAFD8B20A1F54BA749229BB1CE17C /* SSHolidayWest.m in Sources */,
+				1AD1953EDD3057B47E09554E4099B9EB /* SSLunarDate-dummy.m in Sources */,
+				1D23B8C7B9C3A962B9F7A9A74038DE1F /* SSLunarDate.m in Sources */,
+				5F2F579EDE4D999FEA3D1F0BCF013E88 /* SSLunarDateFormatter.m in Sources */,
+				B12AA9254CBAB1F7D67BF9A1845F66DC /* SSLunarDateHoliday.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFD8BBFA32D1AA3055274C18B5B4F735 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SSLunarDate;
+			target = 933D832E0E1510FC0D6F10A8729BE64E /* SSLunarDate */;
+			targetProxy = FE2C82650F2E21D36F192E625C0D9EBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08037D88128655AD5E1A15FC64402C07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D317AE09BDE729DA5714EB6812BBE471 /* Pods-LunarDateDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LunarDateDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LunarDateDemo/Pods-LunarDateDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LunarDateDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		69A9F139B69A73B3065A6443DCBE2EA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08AC05F5512AE3A171C920A55949D3C8 /* Pods-LunarDateDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LunarDateDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LunarDateDemo/Pods-LunarDateDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LunarDateDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		747BAD46B3C8B03C290AF9DD7814DC85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF97EF8E6AFFE6EFBB0512D3AD8D1BEA /* SSLunarDate.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SSLunarDate/SSLunarDate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SSLunarDate/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SSLunarDate/SSLunarDate.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SSLunarDate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		820FDDA359E0F03DE1C29D6D36F0BA98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF97EF8E6AFFE6EFBB0512D3AD8D1BEA /* SSLunarDate.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SSLunarDate/SSLunarDate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SSLunarDate/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SSLunarDate/SSLunarDate.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SSLunarDate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0730B13C0C2DD464817BE1229E6AB79F /* Build configuration list for PBXNativeTarget "SSLunarDate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				820FDDA359E0F03DE1C29D6D36F0BA98 /* Debug */,
+				747BAD46B3C8B03C290AF9DD7814DC85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
+				E72E7977875C2D251FC62736BBDDC389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0CED66C617B9683B2F3003D98144C22 /* Build configuration list for PBXNativeTarget "Pods-LunarDateDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08037D88128655AD5E1A15FC64402C07 /* Debug */,
+				69A9F139B69A73B3065A6443DCBE2EA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

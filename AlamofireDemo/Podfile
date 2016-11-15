@@ -9,5 +9,7 @@ target 'AlamofireDemo' do
 	pod 'Alamofire', '~> 4.0'
     pod 'SwiftyJSON'
     pod 'SWXMLHash'
+    pod 'CocoaSecurity'
+    pod 'CryptoKit'
 #pod 'AlamofireImage'
 end
