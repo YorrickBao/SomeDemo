@@ -25,8 +25,8 @@ class PeripheralViewController: UIViewController {
     }
     
     override func viewWillDisappear(_ animated: Bool) {
-        peripheralManager.stopAdvertising()
         super.viewWillDisappear(animated)
+        peripheralManager.stopAdvertising()
     }
     
     @IBAction func switchTapped(_ sender: UISwitch) {

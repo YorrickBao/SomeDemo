@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -16,9 +17,38 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
         return true
     }
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
 
+        if let sourceApp = options[UIApplicationOpenURLOptionsKey.sourceApplication] as? String,
+            sourceApp == "com.YorrickBao.SwiftyMessageDemo",
+            let scheme = url.scheme,
+            scheme == "demoapp",
+            let host = url.host,
+            host == "yuyue",
+            let query = url.query {
+            
+            
+            print(url.absoluteString)
+            print(url.scheme)
+            print(url.host)
+            print(url.query)
+            
+            let dic = url.query!.components(separatedBy: "&").map { $0.components(separatedBy: "=") }
+            print(dic)
+            
+            let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "endVC") as! BlueViewController
+            ((window?.rootViewController as? tabbarViewController)?.selectedViewController as? UINavigationController)?.popToRootViewController(animated: false)
+            (window?.rootViewController as? tabbarViewController)?.selectedViewController?.show(vc, sender: self)
+        }
+
+        
+        return false
+    }
+    
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.

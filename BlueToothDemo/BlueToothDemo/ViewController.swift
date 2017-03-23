@@ -16,9 +16,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Select Mode"
-        
-        let rndUUID = UUID()
-        print(rndUUID)
     }
 }
 

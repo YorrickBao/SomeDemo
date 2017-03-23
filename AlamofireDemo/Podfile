@@ -1,15 +1,13 @@
 # Uncomment the next line to define a global platform for your project
-platform :ios, '10.0'
+# platform :ios, '9.0'
 
 target 'AlamofireDemo' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 
   # Pods for AlamofireDemo
-	pod 'Alamofire', '~> 4.0'
-    pod 'SwiftyJSON'
-    pod 'SWXMLHash'
-    pod 'CocoaSecurity'
-    pod 'CryptoKit'
-#pod 'AlamofireImage'
+    pod 'Alamofire'
+    pod 'PromiseKit', '~> 4.0'
+    pod 'Hero'
+
 end

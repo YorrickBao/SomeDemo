@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29585EFF1E2C99BF00BAA48F /* tabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29585EFE1E2C99BF00BAA48F /* tabbarViewController.swift */; };
 		299788611D9F93ED001AD1DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299788601D9F93ED001AD1DB /* AppDelegate.swift */; };
 		299788631D9F93ED001AD1DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299788621D9F93ED001AD1DB /* ViewController.swift */; };
 		299788661D9F93ED001AD1DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 299788641D9F93ED001AD1DB /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		29585EFE1E2C99BF00BAA48F /* tabbarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tabbarViewController.swift; sourceTree = "<group>"; };
 		2997885D1D9F93ED001AD1DB /* UnwindSegueDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnwindSegueDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		299788601D9F93ED001AD1DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		299788621D9F93ED001AD1DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				299788621D9F93ED001AD1DB /* ViewController.swift */,
 				299788721D9F94CC001AD1DB /* GreenViewController.swift */,
 				299788741D9F94D6001AD1DB /* BlueViewController.swift */,
+				29585EFE1E2C99BF00BAA48F /* tabbarViewController.swift */,
 				299788641D9F93ED001AD1DB /* Main.storyboard */,
 				299788671D9F93ED001AD1DB /* Assets.xcassets */,
 				299788691D9F93ED001AD1DB /* LaunchScreen.storyboard */,
@@ -146,6 +149,7 @@
 				299788731D9F94CC001AD1DB /* GreenViewController.swift in Sources */,
 				299788631D9F93ED001AD1DB /* ViewController.swift in Sources */,
 				299788751D9F94D6001AD1DB /* BlueViewController.swift in Sources */,
+				29585EFF1E2C99BF00BAA48F /* tabbarViewController.swift in Sources */,
 				299788611D9F93ED001AD1DB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,6 +312,7 @@
 				299788711D9F93ED001AD1DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

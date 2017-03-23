@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0810"
+   LastUpgradeVersion = "0820"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "294873F71DB523E500AD7537"
+               BlueprintIdentifier = "299517BA1E25E9E900EAF494"
                BuildableName = "AlamofireDemo.app"
                BlueprintName = "AlamofireDemo"
                ReferencedContainer = "container:AlamofireDemo.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "294873F71DB523E500AD7537"
+            BlueprintIdentifier = "299517BA1E25E9E900EAF494"
             BuildableName = "AlamofireDemo.app"
             BlueprintName = "AlamofireDemo"
             ReferencedContainer = "container:AlamofireDemo.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "294873F71DB523E500AD7537"
+            BlueprintIdentifier = "299517BA1E25E9E900EAF494"
             BuildableName = "AlamofireDemo.app"
             BlueprintName = "AlamofireDemo"
             ReferencedContainer = "container:AlamofireDemo.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "294873F71DB523E500AD7537"
+            BlueprintIdentifier = "299517BA1E25E9E900EAF494"
             BuildableName = "AlamofireDemo.app"
             BlueprintName = "AlamofireDemo"
             ReferencedContainer = "container:AlamofireDemo.xcodeproj">

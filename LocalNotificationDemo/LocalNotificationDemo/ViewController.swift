@@ -15,32 +15,12 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        
-        center.requestAuthorization(options: [.alert, .sound, .badge]) { (granted, error) in
-            if granted {
-                print("granted!!!")
-                UIApplication.shared.registerForRemoteNotifications()
-            } else {
-                print("user denied notification")
-            }
-        }
 
-        //setupLocalNotification()
-        
-        arrangNotification(timeInterval: 3, times: 3)
-        
-        center.getPendingNotificationRequests { (requests) in
-            print("requests count: \(requests.count)")
-            for r in requests {
-                print(r.identifier)
-            }
-        }
     }
     
     @IBAction func button(_ sender: AnyObject) {
         center.getDeliveredNotifications { (notifications) in
-            print("notification count: \(notifications.count)")
+            print("getDeliveredNotifications count: \(notifications.count)")
             for n in notifications {
                 print(n.request.identifier)
             }
@@ -58,31 +38,7 @@ class ViewController: UIViewController {
     
     }
     
-//    func setupLocalNotification() {
-//        
-//        let content = UNMutableNotificationContent()
-//        content.badge = (UIApplication.shared.applicationIconBadgeNumber + 1) as NSNumber
-//        content.body = "This is iOS 10 new Notification Body"
-//        content.sound = .default()
-//        content.subtitle = "This is subtitle"
-//        content.title = "This is title"
-//        content.launchImageName = "launchImg"
-//        
-//        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 60, repeats: false)
-//        
-//        let request = UNNotificationRequest(identifier: "notificationrequestidentifier", content: content, trigger: trigger)
-//        
-//        let handler: (Error?) -> Void = { error in
-//            if let err = error {
-//                print("error::: \(err.localizedDescription)")
-//            } else {
-//                print("success!")
-//            }
-//        }
-//        
-//        center.add(request, withCompletionHandler: handler)
-//        
-//    }
+
     
     func arrangNotification(timeInterval: Int, times: Int) {
         DispatchQueue(label: "myQueue").async {
@@ -91,13 +47,27 @@ class ViewController: UIViewController {
                 content.badge = (i + 1) as NSNumber
                 content.sound = .default()
                 
-                let trigger = UNTimeIntervalNotificationTrigger(timeInterval: Double(timeInterval * (i + 1)), repeats: false)
+                let trigger = UNTimeIntervalNotificationTrigger(timeInterval: Double(timeInterval * (i + 1)), repeats: true)
                 let request = UNNotificationRequest(identifier: "notificationrequestidentifier\(i)", content: content, trigger: trigger)
                 UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
 
             }
         }
 
+    }
+    
+    func arrangeRepeatedNotification() {
+        let content = UNMutableNotificationContent()
+        content.badge = 99 as NSNumber
+        content.sound = .default()
+        content.body = "notification body"
+        content.subtitle = "subtitle"
+        content.title = "title"
+        
+        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 60, repeats: true)
+        let request = UNNotificationRequest(identifier: "repeatedrequest", content: content, trigger: trigger)
+
+        UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
     }
 
     

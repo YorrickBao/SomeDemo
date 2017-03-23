@@ -1,0 +1,17 @@
+PODS:
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+  - lottie-ios (1.5.1)
+
+DEPENDENCIES:
+  - ChameleonFramework/Swift
+  - lottie-ios
+
+SPEC CHECKSUMS:
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  lottie-ios: f680a7c4cb7a567ecf258fde0f967913aff111b8
+
+PODFILE CHECKSUM: 14ce57ccedc803fc7bd7c4127d0532c2ab88ccc8
+
+COCOAPODS: 1.1.1

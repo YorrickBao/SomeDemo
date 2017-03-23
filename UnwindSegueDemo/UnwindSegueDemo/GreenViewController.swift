@@ -16,7 +16,13 @@ class GreenViewController: UIViewController {
     }
 
     @IBAction func backToGreen(segue: UIStoryboardSegue) {
-        
+        self.navigationController?.view.transform = .identity
+    }
+    @IBAction func gotoBlue(_ sender: Any) {
+        self.navigationController?.view.transform = .init(scaleX: 0.8, y: 0.8)
+        let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "endVC")
+        vc.view.isOpaque = false
+        UIApplication.shared.delegate?.window??.rootViewController?.present(vc, animated: false, completion: nil)
     }
     
 }
