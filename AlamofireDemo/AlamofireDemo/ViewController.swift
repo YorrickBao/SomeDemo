@@ -10,16 +10,14 @@ import UIKit
 import Alamofire
 //import PromiseKit
 
-
-
-
 class ViewController: UIViewController {
     
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        let image = UIImage(named: "晴")
+        print(image)
     }
 
     @IBAction func tap(_ sender: Any) {
@@ -32,7 +30,7 @@ class ViewController: UIViewController {
     }
     
     func fetch() {
-        request("https://sapi.k780.com/?app=weather.today&weaid=101020100&appkey=23784&sign=2c37cce97f7ca38896fddc265d9aa3fa&format=json").response { (response) in
+        request("http://api.k780.com:88/?app=weather.wtype&appkey=10003&sign=b59bc3ef6191eb9f747dd4e83c99f2a4&format=json").response { (response) in
             guard let data = response.data, let str = String.init(data: data, encoding: .utf8) else { return }
             
             print(str)
