@@ -12,11 +12,13 @@ class FirstViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         self.navBarBgAlpha = 1
-        self.navBarTintColor = .purple
     }
 
-
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        self.navBarTintColor = .purple
+    }
 
 }

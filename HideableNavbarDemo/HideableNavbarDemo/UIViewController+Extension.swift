@@ -120,17 +120,19 @@ extension UINavigationController {
     }
     
     func et__updateInteractiveTransition(_ percentComplete: CGFloat) {
-        et__updateInteractiveTransition(percentComplete)
+        defer {
+            et__updateInteractiveTransition(percentComplete)
+        }
         
-        guard let topVC = self.topViewController else { return }
+        guard let topVC = topViewController else { return }
         //transitionCoordinator带有两个VC的转场上下文
         guard let coor = topVC.transitionCoordinator else { return }
         //fromVC 的导航栏透明度
-        let fromAlpha = coor.viewController(forKey: .from)?.navBarBgAlpha
+        let fromAlpha = coor.viewController(forKey: .from)?.navBarBgAlpha ?? 0
         //toVC 的导航栏透明度
-        let toAlpha = coor.viewController(forKey: .to)?.navBarBgAlpha
+        let toAlpha = coor.viewController(forKey: .to)?.navBarBgAlpha ?? 0
         //计算当前的导航栏透明度
-        let nowAlpha = fromAlpha! + (toAlpha! - fromAlpha!) * percentComplete
+        let nowAlpha = fromAlpha + (toAlpha - fromAlpha) * percentComplete
         //设置导航栏透明度
         self.setNeedsNavigationBackground(alpha: nowAlpha)
         
@@ -138,8 +140,9 @@ extension UINavigationController {
         let fromColor = coor.viewController(forKey: .from)?.navBarTintColor ?? .black
         let targetColor = percentComplete > 0.5 ? toColor : fromColor
         
-        self.navigationBar.tintColor = targetColor
-        self.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: targetColor]
+        
+        navigationBar.tintColor = targetColor
+        navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: targetColor]
         
     }
 }
@@ -210,6 +213,3 @@ extension UINavigationController: UINavigationBarDelegate {
     
 }
 
-extension UIViewController {
-    
-}

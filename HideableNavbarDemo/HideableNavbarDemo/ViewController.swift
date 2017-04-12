@@ -14,14 +14,16 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navBarTintColor = .red
-        self.navBarBgAlpha = 0
         tableView.delegate = self
         tableView.dataSource = self
-        
+        self.navBarTintColor = .red
+        self.navBarBgAlpha = 0
     }
 
-
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+      
+    }
 
 
 }
@@ -45,8 +47,8 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         let offset = scrollView.contentOffset.y
         let alpha = max(min((offset / 200), 1), 0)
         let newColor = offset > 200 ? UIColor.black : UIColor.red
-        self.navBarBgAlpha = alpha
-        self.navBarTintColor = newColor
+        navBarBgAlpha = alpha
+        navBarTintColor = newColor
     }
 }
 
