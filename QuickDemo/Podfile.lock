@@ -1,0 +1,18 @@
+PODS:
+  - Nimble (6.1.0)
+  - Quick (1.1.0)
+  - RainbowSwift (2.0.1)
+
+DEPENDENCIES:
+  - Nimble
+  - Quick
+  - RainbowSwift
+
+SPEC CHECKSUMS:
+  Nimble: c53e6903fee94041b90ded74f135820437d8bf59
+  Quick: dafc587e21eed9f4cab3249b9f9015b0b7a7f71d
+  RainbowSwift: 54b5fbfe5c6225d5da50ce30244f04cf0b81eb2d
+
+PODFILE CHECKSUM: d37de3b7a33f3ab32f65ed831574c641142ad13f
+
+COCOAPODS: 1.2.0
