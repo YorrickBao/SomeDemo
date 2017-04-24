@@ -7,5 +7,5 @@ target 'ChartsDemo' do
 
   # Pods for ChartsDemo
   pod 'Charts'
-  pod 'ChartsRealm'
+#  pod 'ChartsRealm'
 end

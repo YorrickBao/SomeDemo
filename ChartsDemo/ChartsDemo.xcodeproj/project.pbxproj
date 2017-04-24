@@ -12,7 +12,6 @@
 		298FADB21EAD9ECA0070BA6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 298FADB01EAD9ECA0070BA6A /* Main.storyboard */; };
 		298FADB41EAD9ECA0070BA6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 298FADB31EAD9ECA0070BA6A /* Assets.xcassets */; };
 		298FADB71EAD9ECA0070BA6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 298FADB51EAD9ECA0070BA6A /* LaunchScreen.storyboard */; };
-		298FADBF1EADA4BA0070BA6A /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298FADBE1EADA4BA0070BA6A /* Person.swift */; };
 		AED90D196C2E8703F1034D5B /* Pods_ChartsDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86B420370CF922AB98634019 /* Pods_ChartsDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,7 +23,6 @@
 		298FADB31EAD9ECA0070BA6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		298FADB61EAD9ECA0070BA6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		298FADB81EAD9ECA0070BA6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		298FADBE1EADA4BA0070BA6A /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		762BA49587F705DF7E535AB8 /* Pods-ChartsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartsDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChartsDemo/Pods-ChartsDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		86B420370CF922AB98634019 /* Pods_ChartsDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChartsDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE813465A26CC28E617B96D7 /* Pods-ChartsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartsDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChartsDemo/Pods-ChartsDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -65,7 +63,6 @@
 			children = (
 				298FADAC1EAD9ECA0070BA6A /* AppDelegate.swift */,
 				298FADAE1EAD9ECA0070BA6A /* ViewController.swift */,
-				298FADBE1EADA4BA0070BA6A /* Person.swift */,
 				298FADB01EAD9ECA0070BA6A /* Main.storyboard */,
 				298FADB31EAD9ECA0070BA6A /* Assets.xcassets */,
 				298FADB51EAD9ECA0070BA6A /* LaunchScreen.storyboard */,
@@ -215,7 +212,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				298FADBF1EADA4BA0070BA6A /* Person.swift in Sources */,
 				298FADAF1EAD9ECA0070BA6A /* ViewController.swift in Sources */,
 				298FADAD1EAD9ECA0070BA6A /* AppDelegate.swift in Sources */,
 			);

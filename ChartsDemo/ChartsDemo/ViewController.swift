@@ -8,7 +8,7 @@
 
 import UIKit
 import Charts
-import RealmSwift
+//import RealmSwift
 
 
 class ViewController: UIViewController {
@@ -21,12 +21,6 @@ class ViewController: UIViewController {
     }
     
     func updateChartWithData() {
-        var dataEntries: [BarChartDataEntry] = []
-        let pCounts = getPersonInDataBase()
-        for i in 0..<pCounts.count {
-            let dataEntry = BarChartDataEntry(x: Double(i), y: Double(pCounts[i].count))
-            dataEntries.append(dataEntry)
-        }
         
         let arr = (0...100).map { BarChartDataEntry(x: Double($0), y: Double($0 * $0)) }
         
@@ -45,27 +39,13 @@ class ViewController: UIViewController {
         
     }
     
-  
-    func getPersonInDataBase() -> Results<Person> {
-        do {
-            let realm = try Realm()
-            return realm.objects(Person.self)
-        } catch let err as NSError {
-            fatalError(err.localizedDescription)
-        }
-    }
     
     @IBAction func btnTapped(_ sender: Any) {
-        abd()
+        
         updateChartWithData()
         chartView.animate(xAxisDuration: 2.0, yAxisDuration: 2.0, easingOption: .easeInOutExpo)
     }
     
-    func abd() {
-        let p = Person()
-        p.count = Int(arc4random() % 100)
-        p.save()
-    }
     
 
 }

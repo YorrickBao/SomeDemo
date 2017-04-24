@@ -9,22 +9,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>ChartsRealm.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-ChartsDemo.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Realm.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>RealmSwift.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -32,22 +17,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>683FA93B40B2E388EB44CBEFF725ED29</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>9ABFCDF7C418030647EE23DEBE11D45D</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>C10186F643AC0BD52AAE6B758E796AA7</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E77B8D6AD20E0A4D3DE484B4C40E42CE</key>
+		<key>744AC0D87272F60DC261C71D632672CE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
